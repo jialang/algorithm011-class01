@@ -24,4 +24,6 @@ Priority Queue -
     So both need BigO(log(n)) time complexity 
   
     
-     
+做题的一些感想：
+边界处理有时挺tricky的。例如leetcode 84 找最大面积的矩形好难啊，暴力法还好，stack 真是好难想，即使想明白原理，\
+实现的时候也有好多技巧，不如stack 加-1， heights 加 0， 否则也会写乱掉。
