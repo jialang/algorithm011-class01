@@ -3,14 +3,14 @@
 学习技巧：
   不要死磕，反复练习。 \
   COPY和掌握优秀的题解是必要的。 \
-  自顶而下的思考和解题方式。 \
+  自顶而下的思考和解题方式。 
   
 Data Structures are created to serve different algorithms. Need to practice more to better understand how they are used. 
 
 Queue - 
   Queue class initiate a deque as self.queue and operations borrowed from deque \
   LiFoQueue is just a stack \
-  PriorityQueue is heapq \
+  PriorityQueue is heapq 
 
 Priority Queue -
   In python it is called heapq (heap queue). And by default it maintains the smallest number. Thread safe \
@@ -21,7 +21,7 @@ Priority Queue -
     heapify is BigO(n) - n is the length of the heap \
     heappop - Remove the smallest element, replace root with the biggest element and _siftup rest nodes \
     heappush - Adding a new element to the end of the list then _siftdown one side of the tree \
-    So both need BigO(log(n)) time complexity \
+    So both need BigO(log(n)) time complexity 
   
     
      
