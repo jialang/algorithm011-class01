@@ -1,5 +1,5 @@
 class Solution:
-    def minMutation(self, start: str, end: str, bank: List[str]) -> int:
+    def minMutation(self, start: str, end: str, bank):
         if end not in bank or not bank:
             return -1
         cs = ['A', 'C', 'G', 'T']
