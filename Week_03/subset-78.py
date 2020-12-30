@@ -1,5 +1,5 @@
 class Solution:
-    def subsets(self, nums: List[int]) -> List[List[int]]:
+    def subsets(self, nums):
         if len(nums) == 0:
             return nums
         ans, l = [], []
