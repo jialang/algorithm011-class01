@@ -1,5 +1,5 @@
 class Solution:
-    def lemonadeChange(self, bills: List[int]) -> bool:
+    def lemonadeChange(self, bills):
         five = ten = 0
         for bill in bills:
             if bill == 5:
