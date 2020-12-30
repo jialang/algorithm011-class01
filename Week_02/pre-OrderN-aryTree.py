@@ -1,13 +1,13 @@
-"""
+
 # Definition for a Node.
 class Node:
     def __init__(self, val=None, children=None):
         self.val = val
         self.children = children
-"""
+
 # recursion
 class Solution:
-    def preorder(self, root: 'Node') -> List[int]:
+    def preorder(self, root):
         if not root:
             return 
         res = []
@@ -21,7 +21,7 @@ class Solution:
             self.traverseP(x, res)
 # iteration
 class Solution:
-    def preorder(self, root: 'Node') -> List[int]:
+    def preorder(self, root):
         if not root: 
             return []
         s, res = [root], []
