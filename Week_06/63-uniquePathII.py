@@ -1,5 +1,5 @@
 class Solution:
-    def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
+    def uniquePathsWithObstacles(self, obstacleGrid):
         m = len(obstacleGrid)
         n = len(obstacleGrid[0])
         d = [[0] * (n+1) for _ in range(m+1)]
