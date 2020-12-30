@@ -1,7 +1,7 @@
 from collections import OrderedDict
 
 class Solution:
-    def firstUniqChar(self, s: str) -> int:
+    def firstUniqChar(self, s:):
         d = OrderedDict()
         for i in range(len(s)):
             if s[i] not in d:
