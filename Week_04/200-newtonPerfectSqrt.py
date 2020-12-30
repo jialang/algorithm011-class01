@@ -1,4 +1,4 @@
-    def isPerfectSquare(self, num: int) -> bool:
+    def isPerfectSquare(self, num):
         if num == 1:
             return True
         r = num
