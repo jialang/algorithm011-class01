@@ -1,5 +1,5 @@
 class Solution:
-    def maximalSquare(self, matrix: List[List[str]]) -> int:
+    def maximalSquare(self, matrix):
         if matrix is None or len(matrix) < 1:
             return 0
         m = len(matrix)
