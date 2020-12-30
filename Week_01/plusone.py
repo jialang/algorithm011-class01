@@ -8,4 +8,4 @@ class Solution:
             digits[i] = 0
         return [1] + digits
 def test_xyz():
-    assert 1 == true
+    assert 1 == True
