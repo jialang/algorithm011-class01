@@ -1,5 +1,5 @@
 class Solution:
-    def lowestCommonAncestor(self, root, p, q:):
+    def lowestCommonAncestor(self, root, p, q):
         s = [root]
         parent = {root:None}
         while p not in parent or q not in parent:
