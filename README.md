@@ -1,3 +1,4 @@
+![BuildAndTest](https://github.com/jialang/algorithm011-class01/workflows/BuildAndTest/badge.svg)
 # 极客大学「算法训练营-第11期」作业提交仓库
 
 
