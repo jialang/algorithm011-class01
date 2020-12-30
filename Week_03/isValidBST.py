@@ -29,4 +29,4 @@ class Solution:
         return self.status
 
 s = Solution()
-print(s.isValidBST(n10))
+#print(s.isValidBST(n10))
