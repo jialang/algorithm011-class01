@@ -1,5 +1,5 @@
 class Solution:
-    def combine(self, n: int, k: int) -> List[List[int]]:
+    def combine(self, n, k):
         res = []
         self.findC(1, [], res, n, k)
         return res
