@@ -17,7 +17,7 @@ class Solution:
                 self.dfs(cur_word, x, y, board, cur_dict)
         board[i][j] = tmp
         
-    def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
+    def findWords(self, board, words):
         if not board or not board[0] or not words:
             return []
         self.res = set()
